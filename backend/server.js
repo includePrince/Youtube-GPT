@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(cors());
 
 // MongoDB Connection
-mongoose.connect(MONGO_URI, {   // Replace your MongoDb Connection String with MONGO_URI
+mongoose.connect("MONGO_URI", {   // Replace your MongoDb Connection String with MONGO_URI
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
