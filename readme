@@ -1,0 +1,24 @@
+How to Run this Project on Local Machine?
+
+# Step 1: Download ZIP file or Clone this Repository
+# Step 2: Edit backend/server.js (
+                On Line 13: Replace your MongoDb Connection String with MONGO_URI
+                On Line 51: Replace your Huggingface api key to HUGGINGFACE_API_KEY
+            )
+# Step 3: Install Dependencies (
+                For Backend:
+                    cd backend
+                    npm install axios cors express mongoose
+                For Frontend:
+                    cd frontend
+                    npm install axios react-youtube
+            )
+# Step 4: Run Backend And Frontend(
+                For Backend:
+                    cd backend
+                    node server.js
+                For Frontend:
+                    cd frontend
+                    npm start
+)
+# Step 5: Open http://localhost:3000/ in any browser to use this project.
